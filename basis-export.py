@@ -109,9 +109,9 @@ def DateRange(start_date, end_date):
         yield start_date + datetime.timedelta(n)
 
 SOURCE = "Basis"
-user = "jlmitch2@gmail.com"
-pw = "12345678"
-rootDir = "/Users/justin/Box Sync/My_data/biohacking/Basis/data/Full-Basis-Export"
+user = "login@email.com"
+pw = "password"
+rootDir = "/Path/to/Basis/Folder"
 signup, lastData = FindBasisUserSource(user,pw)
 
 for singleDate in DateRange(signup, lastData):
